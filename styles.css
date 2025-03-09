@@ -1,0 +1,72 @@
+body {
+    font-family: "Courier Prime", monospace;
+    background-color: #1E201E;
+    overflow-x: hidden;
+}
+
+#terminal {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    height: 95vh;
+    overflow-y: auto;
+}
+
+#historico {
+    padding-bottom: 10px;
+    color: #ECDFCC;
+}
+
+.ascii-prefix .prefix-mail {
+    color: #F0A04B;
+}
+
+.ascii-art {
+    font-family: "Courier Prime", monospace;
+    font-size: 18px;
+}
+
+.pre-js {
+    font-family: "Courier Prime", monospace;
+    font-size: 18px;
+}
+
+.help {
+    color:#ECDFCC;
+}
+
+.help .color {
+    color: #F0A04B;
+    font-weight: bold;
+}
+
+#prompt {
+    display: flex;
+    flex-direction: row;
+}
+
+#prompt span {
+    color: #F0A04B;
+    margin-right: 5px;
+}
+
+input {
+    font-family: "Courier Prime", monospace;
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+    color: #ECDFCC;
+    width: 100%;
+}
+
+.comando {
+    color: #F0A04B;
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+}
+
+.descricao {
+    margin-left: 20px;
+    color: #ECDFCC;
+}
